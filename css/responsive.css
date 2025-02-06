@@ -1,0 +1,304 @@
+@media (max-width: 1277px) {
+    .social-link ul li a i::before {
+        font-size: 17px;
+        padding: 7px;
+    }
+    .navbar .logo a {
+        font-size: 30px;
+    }
+}
+@media (max-width: 1175px) {
+    .social-link ul li a i::before {
+        font-size: 17px;
+        padding: 6px;
+    }
+}
+@media (max-width: 1104px) {
+    .about .about-content .left img {
+        height: 350px;
+        width: 350px;
+    }
+    .overlay {
+        height: 350px;
+        width: 350px;
+    }
+    .clint-photo {
+        width: 97%;
+        float: none;
+        text-align: center;
+    }
+    .clint-review {
+        width: 97%;
+        float: none;
+        text-align: center;
+    }
+    .navbar .logo a {
+        font-size: 21px;
+        margin-left: -28px;
+    }
+    .navbar .logo a span {
+        font-size: 22px;
+    }
+    .about .about-content .left {
+        width: 45%;
+    }
+    .about .about-content .right {
+        width: 55%;
+    }
+    .navbar .menu li a {
+        margin-left: 20px;
+    }
+    .text8 {
+        font-size: 20px;
+    }
+}
+@media (max-width: 991px) {
+    .max-width {
+        padding: 0 50px;
+    }
+    .span_1_of_4:nth-child(3) {
+        margin-left: 0;
+    }
+    .clint-photo {
+        width: 100%;
+        float: none;
+        text-align: center;
+    }
+    .clint-review {
+        width: 100%;
+        float: none;
+        text-align: center;
+    }
+    .navbar .menu {
+        position: fixed;
+        height: 100vh;
+        width: 100%;
+        left: -100%;
+        top: 0;
+        background: #111111e3;
+        text-align: center;
+        padding-top: 80px;
+        transition: all 0.3s ease;
+    }
+    .menu-btn {
+        display: block;
+        z-index: 999;
+    }
+    .menu-btn i.active:before {
+        content: "\f00d";
+    }
+    .navbar .menu.active {
+        left: 0;
+    }
+    .navbar .menu li {
+        display: block;
+    }
+    .navbar .menu li a {
+        display: inline-block;
+        margin: 16px 0;
+        font-size: 25px;
+    }
+    .navbar .logo a {
+        font-size: 30px;
+        margin-left: 0;
+    }
+    .about .about-content .right {
+        width: 50%;
+    }
+    .about .about-content .left {
+        width: 50%;
+    }
+}
+@media (max-width: 947px) {
+    .navbar .menu.active {
+        left: 0;
+    }
+    .navbar .menu li {
+        display: block;
+    }
+    .navbar .menu li a {
+        display: inline-block;
+        margin: 13px 0;
+        font-size: 25px;
+    }
+    .home .home-content .text-2 {
+        font-size: 70px;
+    }
+    .home .home-content .text-3 {
+        font-size: 35px;
+    }
+    .home .home-content a {
+        font-size: 23px;
+        padding: 10px 30px;
+    }
+    .max-width {
+        max-width: 930px;
+    }
+    .about .about-content .column {
+        width: 100%;
+    }
+    .about .about-content .left {
+        display: flex;
+        justify-content: center;
+        margin: 0 auto 60px;
+    }
+    .overlay {
+        margin: 0 auto 60px;
+    }
+    .about .about-content .right {
+        flex: 100%;
+    }
+    .services .serv-content .card {
+        width: calc(50% - 10px);
+        margin-bottom: 20px;
+    }
+    .contact .contact-content .column,
+    .skills .skills-content .column {
+        width: 100%;
+        margin-bottom: 35px;
+    }
+    .navbar .logo a {
+        font-size: 21px;
+    }
+}
+@media (max-width: 850px) {
+    .form {
+        grid-template-columns: 1fr;
+    }
+    .contact-info:before {
+        bottom: initial;
+        top: -75px;
+        right: 65px;
+        transform: scale(0.95);
+    }
+    .contact-form:before {
+        top: -13px;
+        left: initial;
+        right: 70px;
+    }
+    .square {
+        transform: translate(140%, 43%);
+        height: 350px;
+    }
+    .big-circle {
+        bottom: 75%;
+        transform: scale(0.9) translate(-40%, 30%);
+        right: 50%;
+    }
+    .text {
+        margin: 1rem 0 1.5rem 0;
+    }
+    .social-media {
+        padding: 1.5rem 0 0 0;
+    }
+}
+@media (max-width:768px){
+    .portfolio-filter button {
+        margin: 7px 14px;
+    }
+    .portfolio-under-text{
+        font-size: 25px;
+    }
+    .text5 a {
+        font-size:30px;
+    }
+}
+@media (max-width: 690px) {
+    .max-width {
+        padding: 0 23px;
+    }
+    .home .home-content .text-2 {
+        font-size: 60px;
+    }
+    .home .home-content .text-3 {
+        font-size: 32px;
+    }
+    .home .home-content a {
+        font-size: 20px;
+    }
+    .services .serv-content .card {
+        width: 100%;
+    }
+    .acc h3 {
+        font-size: 18px;
+    }
+    .span_1_of_4 {
+        width: 100%;
+    }
+}
+@media (max-width: 500px) {
+    .home .home-content .text-2 {
+        font-size: 50px;
+    }
+    .home .home-content .text-3 {
+        font-size: 27px;
+    }
+    .about .about-content .right .text,
+    .skills .skills-content .left .text {
+        font-size: 19px;
+    }
+    .contact .right form .fields {
+        flex-direction: column;
+    }
+    .contact .right form .email,
+    .contact .right form .name {
+        margin: 0;
+    }
+    .right form .error-box {
+        width: 150px;
+    }
+    .scroll-up-btn {
+        right: 15px;
+        bottom: 15px;
+        height: 38px;
+        width: 35px;
+        font-size: 23px;
+        line-height: 38px;
+    }
+    
+    .testimonial .col:nth-child(3),
+    .testimonial .col:nth-child(4) {
+        margin-top: 40px;
+    }
+    .acc h3 {
+        font-size: 15px;
+    }
+    .text1 {
+        top: 82%;
+        left: 41%;
+    }
+}
+@media (max-width: 394px) {
+    .overlay {
+        width: 100%;
+    }
+    .social-link ul li a i::before {
+        font-size: 20px;
+        padding: 13px;
+        margin-top: 4px;
+    }
+    .portfolio-filter button {
+        margin: 4px 23px;
+    }
+    .navbar .logo a {
+        font-size: 25px;
+    }
+    .portfolio-section h2 {
+        font-size: 37px;
+    }
+    .text8 {
+        font-size: 20px;
+    }
+    .social-link1 ul li {
+        display: inline-block;
+        padding: 3px 7px;
+    }
+    .icon-p {
+        font-size: 14px;
+        color: #000;
+        letter-spacing: 1.1px;
+    }
+    .home .home-content .text-2 {
+        font-size: 41px;
+    }
+}
